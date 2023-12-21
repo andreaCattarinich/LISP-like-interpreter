@@ -1,0 +1,18 @@
+(BLOCK
+  (SET n 7)
+  (SET d (DIV n 2))
+  (SET isprime TRUE)
+  (WHILE (GT d 1)
+    (BLOCK
+      (SET ires (DIV n d))
+      (SET nearest (MUL ires d))
+      (SET remainder (SUB n nearest))
+      (IF (isprime)
+        (IF (EQ remainder 0)
+	  (SET isprime FALSE)
+	  (SET isprime TRUE))
+	 (SET isprime FALSE))
+      (SET d (SUB d 1))))
+  (PRINT isprime))
+    
+

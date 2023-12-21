@@ -1,0 +1,18 @@
+(BLOCK
+  (SET n 10)
+  (IF (EQ n 0)
+      (PRINT 1)
+      (IF (EQ n 1)
+      	  (PRINT 1)
+	  (BLOCK
+	    (SET fibzero 1)
+	    (SET fibone 1)
+	    (SET i 2)
+	    (WHILE (LT i (ADD n 1))
+	      	   (BLOCK
+		     (SET result (ADD fibzero fibone))
+		     (SET fibzero fibone)
+		     (SET fibone result)
+		     (SET i (ADD i 1))
+		     (PRINT result)))))))
+	        

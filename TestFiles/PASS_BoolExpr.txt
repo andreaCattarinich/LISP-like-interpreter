@@ -1,0 +1,16 @@
+(BLOCK
+  (SET n 11)
+  (SET d (DIV n 2))
+  (SET isprime 1)
+  (WHILE (GT d 1)
+    (BLOCK
+      (SET ires (DIV n d))
+      (SET nearest (MUL ires d))
+      (SET remainder (SUB n nearest))
+      (IF (AND (EQ isprime 1) (EQ remainder 0))
+      	  (SET isprime 0)
+	  (SET isprime 1))
+      (SET d (SUB d 1))))
+  (PRINT isprime))
+    
+

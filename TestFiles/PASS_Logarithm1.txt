@@ -1,0 +1,10 @@
+(BLOCK
+  (SET a 17)
+  (SET b 2)
+  (SET result 0)
+  (WHILE (GT a 1)
+    (BLOCK
+	(SET a (DIV a b))
+	(SET result (ADD result 1))))
+  (PRINT result))
+	        

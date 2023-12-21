@@ -1,0 +1,7 @@
+(BLOCK
+  (SET n 10)
+  (WHILE (AND (NOT (LT (DIV 1 n) 0)) (GT n 0))
+    (BLOCK
+	(PRINT n)
+	(SET n (SUB n 1)))))
+	        

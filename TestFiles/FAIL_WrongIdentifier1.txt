@@ -1,0 +1,6 @@
+(BLOCK
+  (PRINT (ADD (MUL 14 10) 25))
+  (SET var1 (MUL 10 5))
+  (PRINT (DIV 1000 var))
+  (SET var (MUL 10 20))
+  (PRINT (DIV 1000 var)))

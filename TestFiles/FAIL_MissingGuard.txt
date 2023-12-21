@@ -1,0 +1,9 @@
+(BLOCK
+  (SET n 10)
+  (SET sum 0)
+  (WHILE 
+    (BLOCK
+      (SET sum (ADD sum n))
+      (SET n (SUB n 1))
+      (PRINT sum))))
+

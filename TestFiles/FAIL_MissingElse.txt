@@ -1,0 +1,9 @@
+(BLOCK
+  (SET a 2)
+  (SET b 5)
+  (SET c -3)
+  (SET delta (SUB (MUL b b) (MUL 4 (MUL a c))))
+  (IF (GT delta 0)
+      (IF (LT delta 0)
+      	  (PRINT -1)
+	  (PRINT 0))))

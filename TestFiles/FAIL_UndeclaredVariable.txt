@@ -1,0 +1,9 @@
+(BLOCK
+  (SET a 10)
+  (SET result 1)
+  (WHILE (GT b 0)
+    (BLOCK
+	(SET result (MUL result a))
+	(SET b (SUB b 1))))
+  (PRINT result))
+	        
