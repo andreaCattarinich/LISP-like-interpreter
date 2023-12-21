@@ -26,7 +26,8 @@ Prima di eseguire il programma, è necessario compilare i file sorgente utilizza
 
 Una volta compilato con successo il programma, è possibile eseguirlo nel seguente modo:
 
-Assicurarsi di essere nella directory contenente il programma compilato `LispInterpreter` e il file di test `.txt`.
+Assicurarsi di essere nella directory contenente il programma compilato `LispInterpreter`.
+Assicurarsi di avere la cartella TestFiles e i file di test `.txt`.
 
 Eseguire il programma compilato utilizzando il comando seguente:
 
