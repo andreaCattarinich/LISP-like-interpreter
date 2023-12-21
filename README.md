@@ -1,7 +1,9 @@
 # Lisp Interpreter
 
 ## Descrizione
-Questo interprete Lisp è progettato per eseguire file di test `.txt` contenenti istruzioni Lisp.
+Questo interprete Lisp è progettato per:
+- Eseguire file di test `.txt` contenenti istruzioni Lisp.
+- Effettuare una conversione Lisp -> C++
 
 ## Istruzioni per l'uso
 
